@@ -1,0 +1,43 @@
+body{
+/*  background-image: url(picture/voda.jpg); */
+
+}
+.header{
+  background-color: #343c4e;
+  background-image: url(picture/art.jpg);
+  color: red;
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-size: cover;
+
+  height: 100vh;
+
+  color: #FFF;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.header__title{
+    font-size: 56px;
+    line-height: 62px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    margin-top: -50px;
+
+}
+.header__slogan{
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header_arrow{
+  font-size:48px;
+  position: absolute;
+  bottom: 50px;
+  background: red;
+}
